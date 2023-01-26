@@ -24,19 +24,6 @@ const NavBar: Component<INavBarProps> = () => {
               >
                 Sign in
               </button>
-              <form action="/auth/signin/email" method="post">
-                <label for="email">Email address</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Email address"
-                  required
-                />
-                <button type="submit" class="button">
-                  <slot>Sign in with Email</slot>
-                </button>
-              </form>
             </>
           }
         >

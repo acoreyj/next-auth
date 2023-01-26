@@ -24,19 +24,6 @@
         {:else}
           <span class="notSignedInText">You are not signed in</span>
           <a href="/auth/signin" class="buttonPrimary" data-sveltekit-preload-data="off">Sign in</a><br/>
-          <form action="/auth/signin/email" method="POST">
-            <label htmlFor="email">Email address</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Email address"
-              required
-            />
-            <button type="submit" class="button">
-              <slot>Sign in with Email</slot>
-            </button>
-          </form>
         {/if}
       </p>
     </div>
