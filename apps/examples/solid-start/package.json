@@ -22,6 +22,7 @@
     "@solidjs/meta": "^0.28.0",
     "@solidjs/router": "^0.6.0",
     "@upstash/redis": "^1.19.3",
+    "nodemailer": "^6.8.0",
     "solid-js": "^1.5.7",
     "solid-start": "^0.2.9",
     "undici": "5.11.0",
