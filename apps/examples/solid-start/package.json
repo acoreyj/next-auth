@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "Solid Start Demo",
   "scripts": {
     "dev": "solid-start dev",
     "build": "solid-start build",
@@ -28,5 +28,6 @@
   },
   "engines": {
     "node": ">=16"
-  }
+  },
+  "packageManager": "pnpm@7.23.0"
 }
