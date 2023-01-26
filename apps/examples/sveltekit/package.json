@@ -24,7 +24,10 @@
   },
   "dependencies": {
     "@auth/core": "latest",
-    "@auth/sveltekit": "latest"
+    "@auth/sveltekit": "latest",
+    "@next-auth/upstash-redis-adapter": "^3.0.3",
+    "@upstash/redis": "^1.19.3",
+    "nodemailer": "^6.8.0"
   },
   "type": "module"
 }
